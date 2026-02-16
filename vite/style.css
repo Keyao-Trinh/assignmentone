@@ -1,4 +1,56 @@
-:root {
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+
+body {
+  background-color: rgb(253, 236, 140);
+}
+
+h1 {
+  color: rgb(214, 115, 3);
+}
+
+.boxes {
+  margin-top: 10px;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.one {
+  background-color: rgb(114, 241, 241);
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.two {
+  background-color: midnightblue;
+
+}
+
+.button {
+  background-color: red;
+  border-radius: 100%;
+  border: 10px solid red;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(253, 236, 140);
+  border: 100px solid rgb(253, 236, 140);
+  cursor: grabbing;
+}
+
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -93,4 +145,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
