@@ -36,19 +36,57 @@ h1 {
 
 }
 
-.button {
+/* .buttons {
+  background-color: rgb(253, 236, 140);
+  border-radius: 100%;
+  border: 10px solid rgb(253, 236, 140);
+  transition-duration: 0.3s;
+  position: relative;
+} */
+
+.o {
   background-color: red;
   border-radius: 100%;
   border: 10px solid red;
   transition-duration: 0.3s;
+  position: absolute;
+
 }
 
-.button:hover {
-  background-color: rgb(253, 236, 140);
-  border: 100px solid rgb(253, 236, 140);
+.a{
+  top: 500px;
+  left: 100px;
+  border-radius: 100%;
+  border: 10px solid rgb(107, 227, 248);
+  background-color: rgb(107, 227, 248);
+  transition-duration: 0.8s;
+  position: absolute;
+}
+
+.b{
+  top: 500px;
+  left: 500px;
+  border-radius: 100%;
+  border: 10px solid rgb(123, 136, 255);
+  background-color: rgb(123, 136, 255);
+  transition-duration: 0.5s;
+  position: absolute;
+}
+.o:hover {
+  border: 1000px solid rgb(253, 236, 140);
   cursor: grabbing;
+  opacity: 0;
 }
-
+.b:hover {
+  opacity: 0;
+  border: 100px solid rgb(253, 236, 140);
+  cursor: crosshair;
+}
+.a:hover{
+  opacity: 0;
+  border: 1000px solid rgb(253, 236, 140);
+  cursor: zoom-out;
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
