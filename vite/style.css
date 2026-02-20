@@ -11,6 +11,10 @@ h1 {
   color: rgb(214, 115, 3);
 }
 
+h2 {
+  font-family: wingdings;
+}
+
 .boxes {
   margin-top: 10px;
   background-color: aliceblue;
@@ -25,22 +29,21 @@ h1 {
 .one {
   background-color: rgb(114, 241, 241);
   position: absolute;
-  left: 200px;
-  top: 100px;
-  height: 100px;
-  width: 100px;
+  left: 50px;
+  top: 95px;
+  height: 220px;
+  width: 150px;
 }
 
 .two {
   background-color: midnightblue;
-
 }
 
 .buttons {
   background-color: rgb(253, 236, 140);
   border-radius: 100%;
   border: 10px solid rgb(253, 236, 140);
-  transition-duration: 0.3s;
+  transition-duration: 0.4s;
   position: relative;
 }
 
@@ -48,36 +51,41 @@ h1 {
   background-color: red;
   border-radius: 100%;
   border: 10px solid red;
-  transition-duration: 0.3s;
+  transition-duration: 6.7s;
   position: absolute;
+  left: 500px;
+  top: 150px;
 
 }
 
-.a{
-  top: 500px;
-  left: 100px;
+.a {
+  top: 150px;
+  left: 580px;
   border-radius: 100%;
   border: 10px solid rgb(107, 227, 248);
   background-color: rgb(107, 227, 248);
-  transition-duration: 0.8s;
+  transition-duration: 1.0s;
   position: absolute;
 }
 
-.b{
-  top: 500px;
-  left: 500px;
+.b {
+  top: 150px;
+  left: 420px;
   border-radius: 100%;
   border: 10px solid rgb(123, 136, 255);
   background-color: rgb(123, 136, 255);
   transition-duration: 0.5s;
   position: absolute;
 }
-.buttons:hover{
-    border: 1000px solid rgb(253, 236, 140);
+
+.buttons:hover {
+  border: 1000px solid rgb(253, 236, 140);
   cursor: grabbing;
   opacity: 0;
 
 }
+
+
 /* .o:hover {
   border: 1000px solid rgb(253, 236, 140);
   cursor: grabbing;
