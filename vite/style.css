@@ -7,6 +7,7 @@ body {
   background-color: #DBF4A7;
 }
 
+
 h1 {
   color: #F98948;
   text-decoration-line: underline;
@@ -30,7 +31,17 @@ h2 {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-thickness: 5px;
-
+  padding: 1px;
+  margin: 1px;
+  border: 1px;
+transition-duration: 1.0s;
+}
+h2:hover{
+  color: #CCC9E7;
+  text-decoration-line:underline;
+  text-decoration-style: dotted;
+  rotate: 360deg;
+  padding: 1px solid #DBF4A7;
 }
 
 p {
@@ -38,11 +49,21 @@ p {
   color: black;
   font-size: small;
 }
+p:hover{
+  color: #E40066;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
 
 span {
   font-family: 'Courier New', Courier, monospace;
   color: black;
   font-size: small;
+}
+span:hover{
+  color: #E40066;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
 }
 
 .boxes {
@@ -61,7 +82,7 @@ span {
   top: 95px;
   height: 220px;
   width: 155px;
-  transition-duration: 2.9s;
+  transition-duration: 6.7s;
 }
 
 .one:hover {
@@ -69,12 +90,18 @@ span {
   rotate: 360deg;
   top: 20px;
   left: 1000px;
+  cursor: help;
 }
 
 .two {
   background-color: #E40066;
+  transition-duration: 1.5s
 }
-
+.two:hover{
+   background-color: #CCC9E7;
+  rotate: 360deg;
+  /* padding: 1px solid #DBF4A7; */
+}
 .buttons {
   background-color: #DBF4A7;
   border-radius: 100%;
@@ -121,10 +148,13 @@ span {
   opacity: 0;
 
 }
-
-input::selection {
+input{
+  transition-duration: 6.7s;
+}
+input:checked {
   background-color: #DBF4A7;
   color: #E40066;
+  rotate: 3600deg;
 }
 
 
